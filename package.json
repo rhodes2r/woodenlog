@@ -1,0 +1,32 @@
+{
+  "name": "woodenlog",
+  "version": "1.0.0",
+  "description": "woodenlog npm testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhodes2r/woodenlog.git"
+  },
+  "keywords": [
+    "log",
+    "woodenlog",
+    "log",
+    "messages"
+  ],
+  "author": "Robert Rhodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhodes2r/woodenlog/issues"
+  },
+  "homepage": "https://github.com/rhodes2r/woodenlog#readme",
+  "dependencies": {
+    "ansi-styles": "^2.2.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.0"
+  }
+}
